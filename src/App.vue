@@ -1,25 +1,24 @@
 <template>
-  <LoginPage/>
+  <div id="app">
+    <NavBar />
+  </div>
+  <RouterLink to="/">Home</RouterLink>
+  <RouterLink to="/">Login</RouterLink>
+
+  <router-view />
 </template>
 
 <script>
-import LoginPage from './components/LoginPage.vue'
+import NavBar from './components/NavBar.vue'
 
 export default {
   name: 'App',
   components: {
-    LoginPage
+    NavBar,
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import "src/assets/styles.scss";
 </style>
