@@ -1,24 +1,13 @@
 # login-register
 
-## Project setup
-```
-yarn install
-```
+## Project overview
+A web application allows users to register for a new account, login using their credentials, and reset their password in case they forget it. 
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Screenshot
 
-### Compiles and minifies for production
-```
-yarn build
-```
+![login screen](https://user-images.githubusercontent.com/121072143/225630607-76f71fe2-5c88-4cb1-970e-c7906411b414.png)
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## To-do
+- `Sign up screen`
+- `Form validation`
+- `Profile page`
