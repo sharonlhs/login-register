@@ -2,9 +2,6 @@
   <div id="app">
     <NavBar />
   </div>
-  <RouterLink to="/">Home</RouterLink>
-  <RouterLink to="/">Login</RouterLink>
-
   <router-view />
 </template>
 
