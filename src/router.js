@@ -13,6 +13,16 @@ const routes = createRouter({
       path: '/login',
       name: 'login',
       component: () => import('./components/LoginPage.vue')
+    },
+    {
+      path: '/signup',
+      name: 'signup',
+      component: () => import('./components/RegisterPage.vue')
+    },
+    {
+      path: '/forgot-password',
+      name: 'forgot-password',
+      component: () => import('./components/ForgotPassword.vue')
     }
   ]
 })

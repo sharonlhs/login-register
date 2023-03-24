@@ -10,7 +10,7 @@
         <input class="input-field" v-model="password" placeholder="Re-enter password"/>
         <button class="cta">Register Now</button>
         <div class="link">
-          <a href="">Already a user? Login now</a>   
+          <RouterLink class="nav-item nav-link" to="/login">Already a user? Login now</RouterLink>
         </div>
     </form>
   </div>

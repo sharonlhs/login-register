@@ -7,7 +7,7 @@ body {
 }
 .wrapper {
   margin: auto;
-  max-width: 320px;
+  max-width: 420px;
   background-color: blanchedalmond;
   border-radius: 5px;
   padding: 1.5rem;
@@ -23,14 +23,6 @@ button {
 button:hover {
   background-color: saddlebrown;
   color: white;
-}
-a {
-  font-size: small;
-  text-decoration: underline;
-}
-a:hover {
-  color:saddlebrown;
-  font-weight: bold;
 }
 .input-field {
   width: 100%;
@@ -50,10 +42,10 @@ a:hover {
   margin-top: 1rem;
   color:black;
 }
-.fgt-pwd {
-  float: right;
-}
 .link {
+  font-size: small;
   margin-top: 1rem;
   text-align: center;
+  color: rgb(0, 123, 185);
+  text-decoration: underline;
 }
